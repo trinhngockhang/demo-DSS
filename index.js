@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 
 // download
 app.get('/download', function(req, res) {
-    res.sendFile(path.join(__dirname + '/public/output.xlsx'));
+    res.sendFile(path.join(__dirname + '/public/example.csv'));
 });
 
 
